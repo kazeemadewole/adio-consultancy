@@ -1,0 +1,73 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+#page {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+section {
+  margin-left: 30%;
+}
+td {
+  margin-top: 30px;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+#myNavbar ul {
+  margin-left:5%;
+}
+#myBeaches img {
+  cursor:pointer;
+}
+/*-----------------------------
+section page */
+section {
+  margin-top:50px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+}
+  .above_footer_div {
+    clear: both;
+    height: 60px;
+}
+
+
+.above_footer_div ul li {
+    margin-top:5px;
+    list-style-type:none;
+    float: left;
+    margin-left: 5%;
+}
+.above_footer_div ul li:first-child {
+    margin-left: 0;
+}
+.privacy-list ul li {
+  list-style-type: decimal;
+  margin-left:5%;
+}
+
+div.footer { background-color:#5c5c3d;  clear: both;  color: white}
+.footer span{ font-size: small;  }
+.footer p {  padding-top: 7px;}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    font-size: 16px;
+  }
+  #myNavbar ul {
+    margin-left:0;
+  }
+  
+}
